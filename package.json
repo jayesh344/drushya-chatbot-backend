@@ -1,0 +1,19 @@
+{
+  "name": "drushya-chatbot-backend",
+  "version": "1.0.0",
+  "description": "Backend proxy for Drushya Digital India chatbot - keeps the Anthropic API key safe on the server",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express-rate-limit": "^7.4.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
