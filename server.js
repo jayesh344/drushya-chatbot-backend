@@ -13,7 +13,7 @@ const rateLimit = require('express-rate-limit');
 const app = express();
 const PORT = process.env.PORT || 3000;
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
-const GEMINI_MODEL = 'gemini-2.5-flash'; // free-tier model
+const GEMINI_MODEL = 'gemini-3.5-flash'; // free-tier model (current as of mid-2026)
 
 if (!GEMINI_API_KEY) {
   console.error('ERROR: GEMINI_API_KEY is not set. Add it as an environment variable before starting the server.');
